@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
-    "build-org": "tailwindcss -i ./src/input.css -o ./src/final.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
