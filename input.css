@@ -24,8 +24,8 @@
     --spacing-8.5:34px;
     --spacing-2xl:80rem;
     --spacing-xs: 480px;
-    --image-headerBgMobile: url('/images/headerBgMobile.webp');
-    --image-headerBgDesktop: url('/images/headerBgDesktop.webp');
+    --image-headerBgMobile: url('images/headerBgMobile.webp');
+    --image-headerBgDesktop: url('images/headerBgDesktop.webp');
 }
 
 @custom-variant child (& > *);
@@ -39,11 +39,11 @@
     @apply mx-auto  md:max-w-2xl px-4 lg:px-6;
   }
   .home-mobile {
-    background-image: url('/images/headerBgMobile.webp');
+    background-image: url('images/headerBgMobile.webp');
 
   }
   .home-desktop {
-    background-image: url('/images/headerBgDesktop.webp');
+    background-image: url('images/headerBgDesktop.webp');
   }
 }
 @layer components{
@@ -73,11 +73,11 @@
   }
    
   .home-mobile {
-    background-image: url('/images/headerBgMobile.webp');
+    background-image: url('images/headerBgMobile.webp');
 
   }
   .home-desktop {
-    background-image: url('/images/headerBgDesktop.webp');
+    background-image: url('images/headerBgDesktop.webp');
   }
 
   .min-circle {
@@ -98,10 +98,10 @@
 
   @media screen and (min-width:1280px) {
     html.dark.products{
-      background-image: url("/images/products-bg.png");
+      background-image: url("images/products-bg.png");
     }
     .products{
-      background: linear-gradient(rgba(243,244,246,-0.65),rgba(243,244,246,-0.65)),url("/images/products-bg.png");
+      background: linear-gradient(rgba(243,244,246,-0.65),rgba(243,244,246,-0.65)),url("images/products-bg.png");
       background-repeat: no-repeat;
       background-size: 100%;
     
@@ -133,12 +133,12 @@
 }
 
 .category-baner-imge-1{
-  background: linear-gradient(270deg, rgba(0,0,0,0.6),rgba(243,244,246,0.1)100%),url("../public/images/categories/category-right.jpg");
+  background: linear-gradient(270deg, rgba(0,0,0,0.6),rgba(243,244,246,0.1)100%),url("images/categories/category-right.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .category-baner-imge-2{
-  background: linear-gradient(270deg, rgba(0,0,0,0.6),rgba(243,244,246,0.1)100%),url("../public/images/categories/category-left.jpg");
+  background: linear-gradient(270deg, rgba(0,0,0,0.6),rgba(243,244,246,0.1)100%),url("images/categories/category-left.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -189,10 +189,10 @@ height: 1px;
 }
 @layer utilities {
   .home-mobile {
-    background-image: url('../public/images/headerBgMobile.webp');
+    background-image: url('images/headerBgMobile.webp');
   }
   
-  .home-desktop { background-image: url('../public/images/headerBgDesktop.webp'); };
+  .home-desktop { background-image: url('images/headerBgDesktop.webp'); };
   .flex-center{ 
     @apply flex justify-center items-center ;
   }  
